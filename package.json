@@ -2,6 +2,7 @@
   "name": "react-native-card-detector-tflite",
   "version": "0.1.0",
   "description": "Tflite",
+  "private": "true",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",

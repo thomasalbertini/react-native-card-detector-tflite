@@ -156,5 +156,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-vision-camera": "^2.16.1"
   }
 }

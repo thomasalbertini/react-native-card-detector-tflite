@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E6A1A82AEE8DF500C89D21 /* card_detector_tflite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6A1A72AEE8DF500C89D21 /* card_detector_tflite.swift */; };
+		65E6A1AF2AEFAB2300C89D21 /* credit_card_classifier_mobilenetv2.tflite in Sources */ = {isa = PBXBuildFile; fileRef = 65E6A1AE2AEFAB2300C89D21 /* credit_card_classifier_mobilenetv2.tflite */; };
+		8D9B7116DFE04A239C191BA2 /* cardDetectorTflite.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9E5A1FA7945C181451A95 /* cardDetectorTflite.m */; };
+		978794A340C94A71A788B176 /* cardDetectorTflite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8F465A6C94F069F883A4A /* cardDetectorTflite.swift */; };
+		DD3FAF17126258335954181A /* Pods_card_detector_tflite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFA800C6C6A281B2561C870 /* Pods_card_detector_tflite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65E6A1A22AEE8DF500C89D21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CFA800C6C6A281B2561C870 /* Pods_card_detector_tflite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_card_detector_tflite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE8F465A6C94F069F883A4A /* cardDetectorTflite.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; path = cardDetectorTflite.swift; sourceTree = "<group>"; };
+		65E6A1A42AEE8DF500C89D21 /* libcard-detector-tflite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcard-detector-tflite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E6A1A72AEE8DF500C89D21 /* card_detector_tflite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_detector_tflite.swift; sourceTree = "<group>"; };
+		65E6A1AE2AEFAB2300C89D21 /* credit_card_classifier_mobilenetv2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = credit_card_classifier_mobilenetv2.tflite; sourceTree = "<group>"; };
+		86E9E5A1FA7945C181451A95 /* cardDetectorTflite.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = cardDetectorTflite.m; sourceTree = "<group>"; };
+		D598167F79C4294494CC55D1 /* Pods-card-detector-tflite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card-detector-tflite.debug.xcconfig"; path = "Target Support Files/Pods-card-detector-tflite/Pods-card-detector-tflite.debug.xcconfig"; sourceTree = "<group>"; };
+		D9136FB356E04AD37C3E8E7E /* Pods-card-detector-tflite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card-detector-tflite.release.xcconfig"; path = "Target Support Files/Pods-card-detector-tflite/Pods-card-detector-tflite.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E6A1A12AEE8DF500C89D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FAF17126258335954181A /* Pods_card_detector_tflite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A85D01661E4FE6E7666EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D598167F79C4294494CC55D1 /* Pods-card-detector-tflite.debug.xcconfig */,
+				D9136FB356E04AD37C3E8E7E /* Pods-card-detector-tflite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65E6A19B2AEE8DF500C89D21 = {
+			isa = PBXGroup;
+			children = (
+				65E6A1AE2AEFAB2300C89D21 /* credit_card_classifier_mobilenetv2.tflite */,
+				65E6A1A62AEE8DF500C89D21 /* card-detector-tflite */,
+				65E6A1A52AEE8DF500C89D21 /* Products */,
+				7D3C55657DA74C2A9921C898 /* cardDetectorTflite */,
+				64A85D01661E4FE6E7666EB4 /* Pods */,
+				86A6A9C1E21E0755F75E449B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65E6A1A52AEE8DF500C89D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E6A1A42AEE8DF500C89D21 /* libcard-detector-tflite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E6A1A62AEE8DF500C89D21 /* card-detector-tflite */ = {
+			isa = PBXGroup;
+			children = (
+				65E6A1A72AEE8DF500C89D21 /* card_detector_tflite.swift */,
+			);
+			path = "card-detector-tflite";
+			sourceTree = "<group>";
+		};
+		7D3C55657DA74C2A9921C898 /* cardDetectorTflite */ = {
+			isa = PBXGroup;
+			children = (
+				86E9E5A1FA7945C181451A95 /* cardDetectorTflite.m */,
+				3CE8F465A6C94F069F883A4A /* cardDetectorTflite.swift */,
+			);
+			path = cardDetectorTflite;
+			sourceTree = "<group>";
+		};
+		86A6A9C1E21E0755F75E449B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CFA800C6C6A281B2561C870 /* Pods_card_detector_tflite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E6A1A32AEE8DF500C89D21 /* card-detector-tflite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E6A1AB2AEE8DF500C89D21 /* Build configuration list for PBXNativeTarget "card-detector-tflite" */;
+			buildPhases = (
+				95FACEB73F300E6101E619C6 /* [CP] Check Pods Manifest.lock */,
+				65E6A1A02AEE8DF500C89D21 /* Sources */,
+				65E6A1A12AEE8DF500C89D21 /* Frameworks */,
+				65E6A1A22AEE8DF500C89D21 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "card-detector-tflite";
+			productName = "card-detector-tflite";
+			productReference = 65E6A1A42AEE8DF500C89D21 /* libcard-detector-tflite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E6A19C2AEE8DF500C89D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					65E6A1A32AEE8DF500C89D21 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 65E6A19F2AEE8DF500C89D21 /* Build configuration list for PBXProject "card-detector-tflite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E6A19B2AEE8DF500C89D21;
+			productRefGroup = 65E6A1A52AEE8DF500C89D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E6A1A32AEE8DF500C89D21 /* card-detector-tflite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95FACEB73F300E6101E619C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card-detector-tflite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E6A1A02AEE8DF500C89D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E6A1AF2AEFAB2300C89D21 /* credit_card_classifier_mobilenetv2.tflite in Sources */,
+				65E6A1A82AEE8DF500C89D21 /* card_detector_tflite.swift in Sources */,
+				8D9B7116DFE04A239C191BA2 /* cardDetectorTflite.m in Sources */,
+				978794A340C94A71A788B176 /* cardDetectorTflite.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65E6A1A92AEE8DF500C89D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E6A1AA2AEE8DF500C89D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E6A1AC2AEE8DF500C89D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D598167F79C4294494CC55D1 /* Pods-card-detector-tflite.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYA64U6CV4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E6A1AD2AEE8DF500C89D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9136FB356E04AD37C3E8E7E /* Pods-card-detector-tflite.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYA64U6CV4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E6A19F2AEE8DF500C89D21 /* Build configuration list for PBXProject "card-detector-tflite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E6A1A92AEE8DF500C89D21 /* Debug */,
+				65E6A1AA2AEE8DF500C89D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E6A1AB2AEE8DF500C89D21 /* Build configuration list for PBXNativeTarget "card-detector-tflite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E6A1AC2AEE8DF500C89D21 /* Debug */,
+				65E6A1AD2AEE8DF500C89D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E6A19C2AEE8DF500C89D21 /* Project object */;
+}
